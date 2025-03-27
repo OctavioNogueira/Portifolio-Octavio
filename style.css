@@ -335,9 +335,9 @@ footer ul li a{
         width: 70vw;
     }
 }
-@media(max-width:440px){
+@media(max-width:300px){
     header #menu-icon{
-        display: block;
+        display: block; 
     }
     .nav-links{
         position: absolute;
@@ -349,8 +349,8 @@ footer ul li a{
         display: flex;
         flex-direction: column;
         text-align: center;
-        background: rgba(0, 0, 0, 0.9);
-        border-radius: 3rem;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 1rem;
     }
     .nav-links li{
         margin-top: 1.5rem;
